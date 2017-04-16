@@ -3,9 +3,9 @@ from pyspark.ml.feature import CountVectorizer
 from pyspark.mllib.clustering import LDA, LDAModel
 
 sqlContext = SQLContext(sc)
-path = ''  # path of the txt file
+path = 'clean_test.txt'  # path of the txt file
 
-data = sc.textFile(path).zipWithIndex().map(lambda (words, idd): Row(idd=idd, words=words.split(" ")))
+data = sc.textFile(path).zipWithIndex().map(lambda words, idd: Row(idd=idd, words=words.split(" ")))
 docDF = sqlContext.createDataFrame(data)
 
 Vector = CountVectorizer(inputCol="words", outputCol="vectors")
@@ -13,7 +13,7 @@ model = Vector.fit(docDF)
 result = model.transform(docDF)
 
 corpus_size = result.count()  # total number of words
-corpus = result.select("idd", "vectors").map(lambda (x, y): [x, y]).cache()
+corpus = result.select("idd", "vectors").map(lambda x, y: [x, y]).cache()
 
 # Cluster the documents into three topics using LDA
 ldaModel = LDA.train(corpus, k=3, maxIterations=100, optimizer='online')

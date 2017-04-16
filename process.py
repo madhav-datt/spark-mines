@@ -10,6 +10,7 @@ from creole import creole2html
 from nltk.stem import SnowballStemmer
 from nltk.corpus import stopwords
 import re
+import io
 
 stop = set(stopwords.words('english'))
 stemmer = SnowballStemmer('english')
@@ -60,15 +61,9 @@ def pre_process(token):
     :return: cleaned token string
     """
 
-    token = ' ' + token.lower() + ' '
-    tmp_token = re.sub("[^a-zA-Z\s]", ' ', token)
-    for word in tmp_token.split():
-        replace_word = ' ' + str(word) + ' '
-        if word in stop:
-            tmp_token = tmp_token.replace(replace_word, ' ')
-        tmp_token = tmp_token.replace(replace_word, ' ' + stemmer.stem(word) + ' ')
-
-    return ' '.join(tmp_token.split())
+    token = re.sub('[^\sa-zA-Z]', ' ', token)  # ''.join(e for e in token if e.isalnum())
+    token = token.lower()
+    return ' '.join([word for word in token.split() if word not in stop])
 
 # Set up main entry point for Spark
 conf = (SparkConf()
@@ -99,10 +94,13 @@ rdd_xml = sc.parallelize(rdd_data_string, 16)\
 rdd_counter = rdd_xml.map(lambda article: article[1])\
     .map(pre_process)
 
+with io.open('clean_test.txt', 'w') as clean_test:
+    for text in rdd_counter.collect():
+        clean_test.write(text + "\n")
+
 counts = rdd_counter.flatMap(lambda line: line.split(" ")) \
     .map(lambda word: (word, 1)) \
     .reduceByKey(lambda a, b: a + b)
 
 print(counts.collect())
-# counts.saveAsTextFile("word-counts.txt")
 sc.stop()
