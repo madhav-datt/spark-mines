@@ -1,19 +1,32 @@
+import os
+
 from pyspark.sql import SQLContext, Row
 from pyspark.ml.feature import CountVectorizer
 from pyspark.mllib.clustering import LDA, LDAModel
+from pyspark import SparkContext, SparkConf
+from pyspark.mllib.linalg import Vectors
+
+conf = (SparkConf()
+        .setMaster("local")
+        .setAppName("My")
+        .set("spark.executor.memory", "1g"))
+sc = SparkContext(conf=conf)
+sc.setLogLevel("OFF")
 
 sqlContext = SQLContext(sc)
 path = 'clean_test.txt'  # path of the txt file
 
-data = sc.textFile(path).zipWithIndex().map(lambda words, idd: Row(idd=idd, words=words.split(" ")))
+data = sc.textFile(path).zipWithIndex().map(lambda line: Row(idd=line[1], words=line[0].split(" ")))
+os.system('rm -f metastore_db/dbex.lck')
 docDF = sqlContext.createDataFrame(data)
 
 Vector = CountVectorizer(inputCol="words", outputCol="vectors")
+Vector = Vectors.fromML(Vector)
 model = Vector.fit(docDF)
 result = model.transform(docDF)
 
 corpus_size = result.count()  # total number of words
-corpus = result.select("idd", "vectors").map(lambda x, y: [x, y]).cache()
+corpus = result.select("idd", "vectors").rdd.map(lambda line: [line[0], line[1]]).cache()
 
 # Cluster the documents into three topics using LDA
 ldaModel = LDA.train(corpus, k=3, maxIterations=100, optimizer='online')

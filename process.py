@@ -16,6 +16,7 @@ stop = set(stopwords.words('english'))
 # stemmer = SnowballStemmer('english')
 lem = WordNetLemmatizer()
 
+
 class Article(object):
     """
     Class with wikipedia article instance
@@ -34,6 +35,14 @@ def remove_html(article):
 
 
 def parse_xml(line):
+    line = re.sub('<sha1(.)*?>(.)*?</sha1>',' ',line,count=0,flags=re.DOTALL)
+    line = re.sub('<username(.)*?>(.)*?</username>',' ',line,count=0,flags=re.DOTALL)
+    line = re.sub('<id(.)*?>(.)*?</id>',' ',line,count=0,flags=re.DOTALL)
+    line = re.sub('<model(.)*?>(.)*?</model>',' ',line,count=0,flags=re.DOTALL)
+    line = re.sub('<timestamp(.)*?>(.)*?</timestamp>',' ',line,count=0,flags=re.DOTALL)
+    line = re.sub('<format(.)*?>(.)*?</format>',' ',line,count=0,flags=re.DOTALL)
+    line = re.sub('<comment(.)*?>(.)*?</comment>',' ',line,count=0,flags=re.DOTALL)
+
     soup = BeautifulSoup(line, "lxml")
     # return soup.page.title.string
     # return tuple([soup.page.title, soup.page.text])
@@ -63,7 +72,7 @@ def pre_process(token):
 
     token = re.sub('[^\sa-zA-Z]', ' ', token)  # ''.join(e for e in token if e.isalnum())
     token = token.lower()
-    return ' '.join([lem.lemmatize(word) for word in token.split() if word not in stop])
+    return ' '.join([word for word in token.split() if word not in stop])
 
 # Set up main entry point for Spark
 conf = (SparkConf()
@@ -78,7 +87,7 @@ print("\n\n\n")
 # directory = "/home/madhav/Downloads/DBMS"
 
 # data_file = "file:///{path}/*.txt".format(path=directory)
-data_file = 'test.txt'
+data_file = 'data2.txt'
 rdd_data = sc.textFile(data_file).cache()
 rdd_data_string = [rdd_data.reduce(lambda a, b: a + '\n' + b)]
 
@@ -94,9 +103,15 @@ rdd_xml = sc.parallelize(rdd_data_string, 16)\
 rdd_counter = rdd_xml.map(lambda article: article[1])\
     .map(pre_process)
 
+rdd_title = rdd_xml.map(lambda article: article[0])
+text_list = rdd_counter.collect()
+title_list = rdd_title.collect()
+
 with io.open('clean_test.txt', 'w') as clean_test:
-    for text in rdd_counter.collect():
-        clean_test.write(text + "\n")
+    for article in zip(title_list, text_list):
+        final_text = "<DOC> <DOCNO> {title} </DOCNO> <TEXT> {text} </TEXT> </DOC>".format(title=article[0],
+                                                                                          text=article[1])
+        clean_test.write(final_text + "\n")
 
 counts = rdd_counter.flatMap(lambda line: line.split(" ")) \
     .map(lambda word: (word, 1)) \
