@@ -1,0 +1,2 @@
+python-creole
+beautifulsoup4
