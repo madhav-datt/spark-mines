@@ -7,14 +7,14 @@
 from pyspark import SparkContext, SparkConf
 from bs4 import BeautifulSoup
 from creole import creole2html
-from nltk.stem import SnowballStemmer
+from nltk.stem.wordnet import WordNetLemmatizer
 from nltk.corpus import stopwords
 import re
 import io
 
 stop = set(stopwords.words('english'))
-stemmer = SnowballStemmer('english')
-
+# stemmer = SnowballStemmer('english')
+lem = WordNetLemmatizer()
 
 class Article(object):
     """
@@ -63,7 +63,7 @@ def pre_process(token):
 
     token = re.sub('[^\sa-zA-Z]', ' ', token)  # ''.join(e for e in token if e.isalnum())
     token = token.lower()
-    return ' '.join([word for word in token.split() if word not in stop])
+    return ' '.join([lem.lemmatize(word) for word in token.split() if word not in stop])
 
 # Set up main entry point for Spark
 conf = (SparkConf()
