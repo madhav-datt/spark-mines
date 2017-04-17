@@ -89,5 +89,9 @@ ENV/
 .ropeproject
 *.idea
 .idea
-metastore_db/*
+.idea/*
+metastore_db/
 
+dump/
+spark-warehouse/
+word-counts.txt/
