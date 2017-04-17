@@ -1,0 +1,132 @@
+<page>
+    <title>Linda Christian</title>
+    <ns>0</ns>
+    <id>2336454</id>
+    <revision>
+      <id>767683393</id>
+      <parentid>754332242</parentid>
+      <timestamp>2017-02-27T10:00:00Z</timestamp>
+      <contributor>
+        <username>Bender the Bot</username>
+        <id>28903366</id>
+      </contributor>
+      <minor />
+      <comment>/* top */HTTP&amp;rarr;HTTPS for [[The New York Times]]. using [[Project:AWB|AWB]]</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve">{{Infobox person
+| name = Linda Christian
+| image = Linda Christian and Edmund Purdom 1962.jpg
+| image_size = 280px
+| caption = Linda Christian with Edmund Purdom in 1962
+| birthname = Blanca Rosa Welter
+| birth_date = {{Birth date|1923|11|13}}
+| birth_place = [[Tampico]], [[Tamaulipas]], Mexico
+| death_date = {{Death date and age|2011|7|22|1923|11|13}}
+| death_place = {{nowrap|[[Palm Desert, California]], U.S.}}
+| death_cause = [[Colon cancer]]
+| resting_place =
+| nationality = [[Mexican nationality law|Mexican]]
+| alias = Linda Christian Power, Linda Welter
+| spouse = [[Tyrone Power]]&lt;br&gt;(m. 1949–1956, divorced)&lt;br&gt;[[Edmund Purdom]]&lt;br&gt;(m. 1962–1963, divorced)
+| children = [[Romina Power]], [[Taryn Power]]
+| years_active = 1943–1988
+| occupation = Actress
+| relatives = [[Ariadne Welter]] (sister)
+| parents = Gerardus Jacob Welter (father)&lt;br /&gt;Blanca Rosa Vorhauer (mother)}}
+
+'''Linda Christian''' (November 13, 1923&lt;ref&gt;Ancestry.com. New Orleans Passenger Lists, 1820–1945 [database on-line]. Provo, UT, US: The Generations Network, Inc., 2006. Micropublication T905. RG085. Rolls #104. Entry for Blanca Rosa Welter Age 1yr 4 months. Gender Female. Nationality: Dutch. Port of Departure: Tampico, Mexico. Ship Name: Maasdam Port of Arrival: New Orleans, Louisiana. Date of Arrival: Mar 23, 1925.&lt;/ref&gt;&lt;ref&gt;Ancestry.com. New York Passenger Lists, 1820–1957 [database on-line]. Provo, UT, US: The Generations Network, Inc., 2006. Year: 1947; Microfilm serial: T715; Microfilm roll: T715_7515; Line: 6;. Entry for: Blanca Welter. Gender Female. Age: 24 years. Port of Departure: Southampton, England. Nationality: Mexican. Place of Birth: Tampico, Mexico. Occupation: Actress. Ship Name: Queen Mary. Port of Arrival: New York, NY. Date of Arrival: Dec 10, 1947.&lt;/ref&gt;&lt;ref&gt;Ancestry.com. New York Passenger Lists, 1820–1957 [database on-line]. Provo, UT, US: The Generations Network, Inc., 2006. Year: 1941; Microfilm serial: T715; Microfilm roll: T715_6565; Line: 9; .Entry for: Blanca Rosa Welter. Gender: Female. Age: 17. Nationality: Dutch. Occupation: Student. Place of Birth: Tampico, Mexico. Port of Departure: Cape Town, South Africa. Ship Name: President Monroe. Port of Arrival: New York, NY. Date of Arrival: July 31, 1941. Editor's note: if she was 17 in July 1941, that would mean she was going to turn 18 that November; another confirmation of 1923 as her year of birth.&lt;/ref&gt; – July 22, 2011&lt;ref name=obit&gt;{{cite news|url=https://www.nytimes.com/2011/07/26/movies/linda-christian-actress-and-tyrone-powers-wife-dies-at-87.html?_r=1&amp;ref=deathsobituaries|title=Linda Christian, Actress and Tyrone Power's Wife, Dies at 87|work=[[Associated Press]] via [[The New York Times]]|date=July 25, 2011}}&lt;/ref&gt;) was a Mexican film actress, who appeared in [[Mexican cinema|Mexican]] and [[Hollywood]] films. Her career reached its peak in the 1940s and 1950s. She played Mara in the last [[Johnny Weissmuller]] Tarzan film, ''[[Tarzan and the Mermaids]]'' (1948).&lt;ref name=parla35&gt;[[#Parla|Parla]], p. 35.&lt;/ref&gt; She is also noted for being the first [[Bond girl]], appearing in a 1954 television adaptation of the [[James Bond]] novel ''[[Casino Royale (Climax!)|Casino Royale]]''.&lt;ref&gt;Steven Jay Rubin (2003) ''The Complete James Bond Movie Encyclopedia'', Contemporary Books, pp. 70, 76–77, ISBN 0071412468.&lt;/ref&gt; In 1963 she starred in an episode of ''[[The Alfred Hitchcock Hour]]'', &quot;An Out for Oscar&quot;.
+
+==Early life==
+Christian was born as '''Blanca Rosa Welter''' in [[Tampico]], [[Tamaulipas]], [[Mexico]], a daughter of [[Dutch people|Dutch]] engineer and [[Royal Dutch Shell]] executive, Gerardus Jacob Welter (1904–1981),&lt;ref&gt;Birth and death dates given in ''Il coraggio di scrivere,'' Volume 1, by Gianni Ippoliti (Baldini Castoldi Dalai, 1992), p. 14.&lt;/ref&gt;&lt;ref&gt;Ancestry.com. New Orleans Passenger Lists, 1820–1945 [database on-line]. Provo, UT, US: The Generations Network, Inc., 2006. Port of Departure: Tampico, Mexico. Ship Name: Maasdam Port of Arrival: New Orleans, Louisiana. Date of Arrival: Mar 23, 1925.&lt;/ref&gt; and his [[Mexican people|Mexican]]-born wife, the former Blanca Rosa Vorhauer (1901-1992), who was of [[Spanish people|Spanish]], [[Germans|German]] and [[French people|French]] descent.&lt;ref&gt;Birth date given in ''Il Coraggio di Scrivere,'' Volume 1, by Gianni Ippoliti (Baldini Castoldi Dalai, 1992), p. 14.&lt;/ref&gt;&lt;ref&gt;[[#Parla|Parla]], pp. 35–36.&lt;/ref&gt; The Welter family moved a great deal during Christian's youth, living everywhere from South America and Europe to the Middle East and Africa.&lt;ref name=parla35/&gt; As a result of this nomadic lifestyle, Christian became an accomplished [[Multilingualism|polyglot]] with the ability to speak fluent French, German, Dutch, Spanish, [[English language|English]], [[Italian language|Italian]] and even a bit of haphazard [[Arabic]] and [[Russian language|Russian]].&lt;ref name=parla35/&gt;
+
+Christian had three younger siblings, a sister, actress [[Ariadne Welter|Ariadna Gloria Welter]] (1930–1998), and two brothers, Gerardus Jacob Welter (born 1924) and Edward Albert Welter (born 1932).&lt;ref&gt;Ancestry.com. New Orleans Passenger Lists, 1820–1945 [database on-line]. Provo, UT, US: The Generations Network, Inc., 2006. Micropublication T905. RG085. Rolls #104. Port of Departure: Tampico, Mexico. Ship Name: Maasdam Port of Arrival: New Orleans, Louisiana. Date of Arrival: Mar 23, 1925.&lt;/ref&gt;&lt;ref&gt;Ancestry.com. New York Passenger Lists, 1820–1957 [database on-line]. Provo, UT, US: The Generations Network, Inc., 2006. Year: 1941; Microfilm serial: T715; Microfilm roll: T715_6565; Line: 9;. Port of Departure: Cape Town, South Africa. Ship Name: President Monroe. Port of Arrival: New York, NY.&lt;/ref&gt;
+
+==Career==
+[[File:Christian-Palma-Tarzan.jpg|right|200px|thumb|Christian and the Mexican actress [[Andrea Palma (actress)|Andrea Palma]] in ''[[Tarzan and the Mermaids]]'' in 1948.]]
+In her youth Christian's only aspiration was to become a physician.&lt;ref name=parla36&gt;[[#Parla|Parla]], p. 36.&lt;/ref&gt; After she graduated from secondary school she had a fortuitous meeting with her screen idol [[Errol Flynn]], who became her lover, and she was persuaded by him to give up her hopes of joining the medical profession, move to Hollywood, and pursue an acting career.&lt;ref name=parla36/&gt; Not long after arriving in Hollywood she was spotted by [[Louis B. Mayer]]'s secretary at a fashion show in [[Beverly Hills]]. He offered, and she accepted, a seven-year contract with MGM.&lt;ref name=parla37&gt;[[#Parla|Parla]], p. 37.&lt;/ref&gt;
+
+Her stage name was invented by Flynn, who gave her the surname of Fletcher Christian of ''Mutiny on the Bounty'' fame. Flynn had played Fletcher Christian in a 1933 Australian film.&lt;ref&gt;Thomas McNulty (2004) ''Errol Flynn: The Life and Career'', McFarland, pp. 165, 166, ISBN 0786417501.&lt;/ref&gt;
+
+In his autobiography, ''[[My Wicked, Wicked Ways]]'',&lt;ref&gt;Errol Flynn (2002) My Wicked, Wicked Ways&quot;, Rowman &amp; Littlefield, ISBN 978-0815412502&lt;/ref&gt; Flynn states that immediately after Linda Christian's screen test, he offered to pay for her to have a couple of crooked teeth fixed. When he got a whopping bill, he discovered that she had taken the opportunity to undergo major cosmetic dentistry. Years later, when he met her again, he said, &quot;Smile, baby – I want to see those choppers: they took their first bite out of me.&quot;
+
+She made her film debut in the 1944 musical comedy ''[[Up in Arms]]'', co-starring [[Danny Kaye]] and [[Dinah Shore]]. This movie also happened to be Danny Kaye's own first film.&lt;ref name=parla37/&gt; This film was followed by ''[[Holiday in Mexico]]'' (1946), ''[[Green Dolphin Street]]'' (1947), and what was perhaps her best-known film, ''[[Tarzan and the Mermaids]]''&lt;ref name=parla37/&gt; (1948). She was the subject of a well-known photograph published in the January 1, 1949, issue of ''[[Vogue (magazine)|Vogue]]''.
+
+Christian was the first Bond girl to appear on screen, playing Valerie Mathis (opposite Barry Nelson as James Bond) in the 1954 TV adaptation of ''[[Casino Royale (Climax!)|Casino Royale]]'', beating [[Ursula Andress]] to the screen by eight years.
+
+In 2001, a Golden Palm Star on the [[Palm Springs, California]], [[Palm Springs Walk of Stars|Walk of Stars]] was dedicated to her.&lt;ref&gt;{{cite web|url=http://www.palmspringswalkofstars.com/web-storage/Stars/Stars%20dedicated%20by%20date.pdf|format=PDF|title=Palm Springs Walk of Stars by date dedicated|website=palmspringswalkofstars.com}}&lt;/ref&gt;
+
+==Marriages and relationships==
+[[File:LindaChristian1966Rotterdam(cropped).jpg|{{largethumb}}|Christian in Rotterdam (1966)]]
+Christian's fame, however, was largely derived from having been married to (and [[divorce]]d from) the popular screen idol [[Tyrone Power]]&lt;ref name=parla35/&gt; (1949–56). The couple married in Rome, Italy, at [[Santa Francesca Romana, Rome|Santa Francesca Romana church]]; Christian wore a formfitting gold-damask gown, and the church was decorated with two thousand 'Esther' carnations.&lt;ref&gt;{{cite web|url=http://tyforum.bravepages.com/artc/oggi-2-3-49.html|title=Magazine Articles - Matrimonio in Technicolor|publisher=}}&lt;/ref&gt; She and Power were the parents of singer [[Romina Power]] and actress [[Taryn Power]].&lt;ref name=parla39&gt;[[#Parla|Parla]], p. 39.&lt;/ref&gt; Romina was one half of the Italian singing duo [[Al Bano and Romina Power]].
+
+A month after she divorced Tyrone Power, Christian was seen with Spanish racing driver [[Alfonso de Portago]], who was married to American Carroll de Portago (later [[Carroll Petrie]]). Carroll had recently given birth to &quot;Fon's&quot; second child Anthony. De Portago was also dating model [[Dorian Leigh]], mother of his recently born illegitimate son Kim. Linda was photographed with de Portago at the 1957 [[Mille Miglia]] car race. The photo shows Christian leaning in to kiss Fon before he drove off and crashed his Ferrari, killing himself, his navigator Ed Nelson and at least ten spectators in the process. The press labeled the photo &quot;The Kiss of Death&quot;. De Portago was 28 years old. Her ex-husband, Tyrone Power, died the following year of a heart attack at the age of 44. Christian was later married to the [[Rome]]-based British actor [[Edmund Purdom]].&lt;ref name=obit/&gt;
+
+On several occasions Christian and Power were offered the opportunity to work together, but for various reasons each offer was refused or rescinded.&lt;ref name=parla39/&gt; The most notable opportunity to co-star together came in 1953, when they were offered leading roles in ''[[From Here to Eternity]]''. Power did not want to do the film&lt;ref name=parla39/&gt; and rejected the offer. The roles went to [[Donna Reed]] and [[Montgomery Clift]]. 
+Linda Christian died on July 22, 2011, at the age of 87.&lt;ref&gt;{{cite web|last =Bergan|first =Ronald|title =Linda Christian obituary|date =26 July 2011|work =The Guardian|url =https://www.theguardian.com/film/2011/jul/26/linda-christian-obituary|publisher =theguardian.com|accessdate =12 January 2015}}&lt;/ref&gt;
+
+==Selected filmography==
+{{div col|col=2}}
+* ''[[The Rock of Souls]]'' (1942)
+* ''[[Up in Arms]]'' (1944)
+* ''[[Holiday in Mexico]]'' (1946)
+* ''[[Green Dolphin Street]]'' (1947)
+* ''[[Tarzan and the Mermaids]]'' (1948)
+* ''[[The Happy Time]]'' (1952)
+* ''[[Athena (film)|Athena]]'' (1954)
+* ''[[Thunderstorm (film)|Thunderstorm]]'' (1956)
+* ''[[Peter Voss, Hero of the Day]]'' (1959)
+* ''[[The House of the Seven Hawks]]'' (1959)
+* ''[[The Devil's Hand]]'' (1962)
+* ''[[The V.I.P.s (film)|The V.I.P.s]]'' (1963)
+* ''[[The Beauty Jungle]]'' (1964)
+* ''[[The Moment of Truth (film)|The Moment of Truth]]'' (1965)
+* ''[[10:32]]'' (1966)
+{{div col end}}
+
+==Bibliography==
+* Christian, Linda. ''Linda, My Own Story''. New York: Crown Publishers (1962).
+
+==References==
+{{reflist|30em}}
+
+==Sources==
+{{Commons category}}
+* {{cite book|ref=Parla|author1=Parla, Paul  |author2=Mitchell, Charles P.  |lastauthoramp=yes |title=Screen Sirens Scream!|publisher=McFarland|year= 2000|isbn=0786445874}}
+* {{Find a Grave|73787480}}&lt;!-- No grave photo, but memorial page is maintained by FAG &amp; proximity to Palm Desert makes this the likely place of burial --&gt;
+
+{{s-start}}
+{{s-new}}
+{{s-ttl | title=[[Bond girl]] | years=1954}}
+{{s-aft | after=[[Ursula Andress]]}}
+{{s-end}}
+
+==External links==
+* {{IMDb name|160046}}
+
+{{Authority control}}
+
+{{DEFAULTSORT:Christian, Linda}}
+[[Category:1923 births]]
+[[Category:2011 deaths]]
+[[Category:American film actresses]]
+[[Category:American people of Mexican descent]]
+[[Category:American people of Dutch descent]]
+[[Category:American people of French descent]]
+[[Category:American people of German descent]]
+[[Category:American people of Spanish descent]]
+[[Category:Deaths from cancer in California]]
+[[Category:Deaths from colorectal cancer]]
+[[Category:Mexican film actresses]]
+[[Category:Mexican people of Dutch descent]]
+[[Category:Mexican people of French descent]]
+[[Category:Mexican people of German descent]]
+[[Category:Mexican people of Spanish descent]]
+[[Category:Mexican emigrants to the United States]]
+[[Category:People from Tampico, Tamaulipas]]
+[[Category:20th-century American actresses]]
+[[Category:20th-century Mexican actresses]]
+[[Category:Burials at Forest Lawn Cemetery (Cathedral City)]]</text>
+      <sha1>7z2pni6roz9r62r2ee818scl6hd3osl</sha1>
+    </revision>
+  </page>
