@@ -1,4 +1,4 @@
-name := "spark-ml-example"
+name := "spark-ml-lda"
 
 version := "1.0"
 
